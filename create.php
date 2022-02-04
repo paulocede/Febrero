@@ -19,12 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
     
     // Validate address
-    $input_address = trim($_POST["address"]);
-    if(empty($input_address)){
-        $address_err = "Por favor ingrese una dirección.";     
-    } else{
-        $address = $input_address;
-    }
+   
     
     // Validate salary
     $input_salary = trim($_POST["salary"]);
